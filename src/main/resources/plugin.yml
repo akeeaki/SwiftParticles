@@ -1,0 +1,5 @@
+name: SwiftParticles
+version: '${version}'
+main: ru.yuuki.swiftparticles.SwiftParticles
+api-version: '1.16'
+authors: [yuukidevs]
