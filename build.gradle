@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'ru.yuuki'
-version = '1.0-SNAPSHOT'
+version = '1.0-RELEASE'
 
 repositories {
     mavenCentral()
@@ -18,7 +18,12 @@ repositories {
 }
 
 dependencies {
-compileOnly "com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT"
+    compileOnly "com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT"
+    compileOnly("org.projectlombok:lombok:1.18.42")
+    annotationProcessor("org.projectlombok:lombok:1.18.42")
+
+    testCompileOnly("org.projectlombok:lombok:1.18.42")
+    testAnnotationProcessor("org.projectlombok:lombok:1.18.42")
 }
 
 def targetJavaVersion = 8

@@ -1,0 +1,17 @@
+#
+# SwiftParticles - Config
+# Author : yuuki (telegram: @yuukidevs)
+#
+
+messages:
+  prefix: "&aSwiftParticles &7» "
+  no permissions: "&cУ Вас нет прав на использование этой команды!"
+
+particles:
+  fire:
+    world: "world"
+    particle: "FLAME"
+    position: [0, 100, 0] # x, y, z
+    offsets: [5, 5, 5] # x, y, z
+    interval: 10 # время в тиках
+    amount: 100
